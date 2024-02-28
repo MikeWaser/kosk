@@ -3,6 +3,7 @@ import RepeatText from "./RepeatText";
 import List from "./List";
 import Counter from "./Counter";
 import Check from "./Check";
+import Radio from "./Radio";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
  */}      <List animalArray={["hund", "katt", "ko", "häst"]}/>
  < Counter />
  <Check />
+ <Radio />
     </>
   );
 };
